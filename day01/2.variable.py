@@ -7,6 +7,10 @@
     in Python
 
         var = value
+
+            * int(): constructs an integer number from a literal (int, float, or string literals)
+            * float(): constructs a float number from a literal (int, or float, or string literals)
+            * str(): constructs a string from a literal (int, float, or string literals)
 """
 
 name = None
