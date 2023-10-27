@@ -66,7 +66,9 @@ print(count_java)
 
 s ='Java'
 s2="java"
-print(s.lower()==s2.lower())
+print(s.lower()==s2.lower()) # true
+
+print(s[0].islower()) #False
 
 
 """
