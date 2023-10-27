@@ -20,8 +20,11 @@ class Employee:
     def work(self):
         print(f'{self.name} is working')
 
+    # def __str__(self):
+    #     return f'name: {self.name}, job_title: {self.job_title}'
+
     def __str__(self):
-        return f'name: {self.name}, job_title: {self.job_title}'
+        print(f'{type(self).__name__}{self.__dict__}')
 
 
 
