@@ -69,3 +69,20 @@ print('--------------------------')
 
 for x in reversed(range(0, len(days))):
     print(x)
+
+print('-------Multidimensional tuple (array)------------------')
+
+nested_tuple = ((1, 2, 3), (4, 5, 6, 7), (9, 10))
+print(len(nested_tuple))
+print('-------Multidimensional tuple (array)------------------')
+for x in nested_tuple:
+    print(x)
+print('-------Multidimensional tuple (array)------------------')
+for x in nested_tuple:
+    print(x)
+    for y in x:
+        print(y)
+print('-------Multidimensional tuple (array)------------------')
+for i in range(0, len(nested_tuple)):
+    for j in range(0, len(nested_tuple[i])):
+        print(nested_tuple[i][j])

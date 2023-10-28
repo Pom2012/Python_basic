@@ -51,7 +51,7 @@ employee2.work()
 employee3.work()
 
 
-print(employee2)
-print(employee3)
+print(employee2.salary)
+print(employee3.job_title)
 
 
